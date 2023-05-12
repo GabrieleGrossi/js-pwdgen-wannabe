@@ -17,9 +17,12 @@ console.log(mySurname)
 const myFavouriteColor = prompt("So che è una cosa molto infantile, ma potresti dirmi il tuo colore preferito per favore?")
 console.log(myFavouriteColor)
 
-// 4A
+/*{// 4A
 const myStrongPsw = myName + mySurname + myFavouriteColor + '21'
 console.log(myStrongPsw)
 
 // 4B
-document.getElementById("your_newstrongpsw").textContent = myStrongPsw
+document.getElementById("your_newstrongpsw").textContent = myStrongPsw}*/
+
+//4
+document.getElementById('your_newstrongpsw').innerHTML = myName + mySurname + myFavouriteColor + '21'
