@@ -21,6 +21,10 @@ main p{
     width: 1050px;
     margin: 0 auto;
 }
+main h1{
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
 
 footer{
     color: grey;
